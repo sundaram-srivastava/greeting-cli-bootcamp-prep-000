@@ -6,3 +6,5 @@ def gullu(num)
 if num<10
 puts "sundaram"
 gullu(num)
+end
+end
