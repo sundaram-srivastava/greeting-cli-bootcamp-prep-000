@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 require_relative "../lib/yo.rb"
 puts "hello player wlcm to the game"
-number= gets.strip
-hello(number)
+puts "plz entre number"
+def gullu(num)
+if num<10
+puts "sundaram"
+gullu(num)
