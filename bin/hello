@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 require_relative "../lib/yo.rb"
-puts "Hi! I'm HAL, what's your name"
-name= gets.strip
-greeting(name)
+puts "hello player wlcm to the game"
+number= gets.strip
+hello(number)
