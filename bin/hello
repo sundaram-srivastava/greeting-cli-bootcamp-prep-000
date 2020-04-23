@@ -4,7 +4,8 @@ puts "hello player wlcm to the game"
 puts "plz entre number"
 def gullu(num)
 if num<10
-puts "sundaram"
+num= gets.strip
+
 gullu(num)
 end
 end
